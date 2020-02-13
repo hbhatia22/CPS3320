@@ -17,7 +17,7 @@ choice = int(input())
 
 if 0 < choice < length:
     A = list(words[choice - 1])
-'''
+
 # importing words from python package random-words
 w = RandomWords()
 
@@ -26,7 +26,7 @@ word = w.get_random_word()
 
 # create a list out of the selected random word
 A = list(word)
-'''
+
 L = []
 for char in A:
     L.append('-')
